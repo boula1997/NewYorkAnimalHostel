@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>فندق نيويورك للحيوانات الاليفة | تواصل معنا</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/superfish.js"></script>
+<script>
+$(function(){
+	function equalHeight(group) {
+		var tallest = 0;
+		group.each(function() {
+			var thisHeight = $(this).height();
+			if(thisHeight > tallest) {
+				tallest = thisHeight;
+			}
+		});
+		group.height(tallest);
+	}	
+	equalHeight($(".box-1 .inner"));
+})
+</script>
+
+</head>
+<body>
+<!-- Header -->
+<header>
+  <div class="inner">
+    <h1 style="text-align: left; color: #ec8f23;" >فندق نيويورك للحيوانات الاليفة</h1>
+    <div class="fright">
+      <div class="header-meta">
+
+        <div class="col-elem"> هل تواحه مشكلة في الاعتناء بحيوانك الاليف ؟<br>
+          01111111111 <span class="phone"> تواصل معنا علي: </span> </div>
+      </div>
+      <nav>
+        <ul class="sf-menu">
+          <li class="current"><a href="book.html">احجز الان</a></li>
+          <li> <a href="services.html">الخدمات</a>
+            <li><a href="about.html">من نحن؟</a></li>
+          <li><a href="index.html">الصفحة الرئسية</a></li>
+
+          </li>
+
+          
+        </ul>
+      </nav>
+    </div>
+    <div class="clear"></div>
+  </div>
+</header>
+<!-- Content -->
+<section id="content">
+  <div class="container_24">
+    <div class="indent-bot">
+      <article class="grid_6">
+        <div class="box-1">
+          <div class="inner">
+            <h3>عناية خاصة بالحيوانات المسنة</h3>
+            <p> رعاية وجلسات استشفاء خاصة للحيوانات الكبيرة في السن مع اعطاهم طعام صحي وغذائي بصورة دورية </p>
+            <div class="btn-container">
+              <div class="button-box"> <a href="#" class="button">خدمات فندق نيويورك</a> </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="grid_6">
+        <div class="box-1">
+          <div class="inner">
+            <h3>تنظيف دوري للحيوانات</h3>
+            <p class="p0"> <strong class="str-1"> افضل مستويات النضافة للحيوانت الاليفة </strong> </p>
+            <p> اثناء فترة الاقامة في عيادات نيويورك البيطرية </p>
+            <div class="btn-container">
+              <div class="button-box"> <a href="#" class="button">خدمات فندق نيويورك</a> </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="grid_6">
+        <div class="box-1">
+          <div class="inner">
+            <h3>عناية طبية متميزة</h3>
+            <p> فحص دوري شامل  اعطاء التطعيمات اللازمة للحيوانات قبل اقامتها. توفير العلاج و لدوية بيطرية مناسبة لهم </p>
+            <div class="btn-container">
+              <div class="button-box"> <a href="#" class="button">خدمات فندق نيويورك</a> </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="grid_6">
+        <div class="box-1">
+          <div class="inner">
+            <h3>خدمات فندقية متنوعة</h3>
+            <p class="p0"> <strong class="str-1"> اماكن واسعة تسمح لهم باللعب والمرح</strong> </p>
+            <p> غرف مكيفة لاقامة الحيوانات الاليفة مع توفير افضل راحة نفسية لهم اثناء الاقامة </p>
+            <div class="btn-container">
+              <div class="button-box"> <a href="#" class="button">خدمات فندق نيويورك</a> </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="clear"></div>
+      <div class="wrapper">
+        <article class="grid_7 suffix_1">
+          <h2>معلومات التواصل</h2>
+          <div class="map-container img-box">
+            <iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+          </div>
+          <strong class="str-4">فندق نيويورك للحيوانات الاليفة</strong>
+          <dl class="adress">
+            <dt>شارع احمد عرابي بجوار السرك القومي في الجيزة</dt>
+            <dd><span>رقم الموبيل:</span><strong>0111111111</strong></dd>
+            <dd><span>الفاكس:</span><strong>5022155544</strong></dd>
+            <dd><span>البريد الالكتروني:</span><a href="#">mail@gmail.com</a></dd>
+          </dl>
+        </article>
+        <article class="grid_16">
+          <h2>نموذج الحجز</h2>
+          <form action="PHP2.php" id="contact-form" method="post">
+            <fieldset>
+              <label class="name"> <input name="name" type="text">
+                <span>اسم صاحب الحيوان: </span>
+                
+              </label>
+              <label class="phone">  <input name="phone" type="text">
+                <span>رقم الهاتف:</span>
+               
+              </label>
+              <label class="name">                <select name="animal_type" id="">
+                <option value="">حدد نوع الحيوان</option>
+                <option value="كلب">كلب</option>
+                <option value="قط">قط</option>
+                <option value="حيوان اخر">حيوان اخر</option>
+              </select>
+              </label>
+
+              <label class="name"> <input name="start_date" type="date">
+                <span>الاقامة من  </span>
+                
+              </label>
+
+              <label class="name"> <input name="end_date" type="date">
+                <span>الاقامة الي</span>
+                
+              </label>
+
+            
+              <div class="button-box"> <button type="submit">حجز</button> </div>
+            </fieldset>
+          </form>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+<footer>
+  <div class="copyright" style="text-align: center;"> &copy; 2012 <strong >فندق نيويورك للحيوانات الاليفة</strong>
+  </div>
+  <ul class="social-list">
+    <li><a href="#"><img src="images/social-link-1.jpg" alt=""></a></li>
+    <li><a href="#"><img src="images/social-link-2.jpg" alt=""></a></li>
+    <li><a href="#"><img src="images/social-link-3.jpg" alt=""></a></li>
+    <li><a href="#"><img src="images/social-link-4.jpg" alt=""></a></li>
+  </ul>
+</footer>
+</body>
+</html>
